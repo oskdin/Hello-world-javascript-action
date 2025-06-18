@@ -19,5 +19,5 @@ The time we greeted you.
 ```yaml
 uses: oskdin/Hello-world-javascript-action@genesis
 with:
-  who-to-greet: 'everybody'
+  who-to-greet: "Hello"
 ```

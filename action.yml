@@ -1,22 +1,22 @@
-name: Hello, World Demo by Oskdin!
-description: Greet someone and record the time
-author: Oskdin Actions
+name: 'Hello, World Demo by Oskdin!'
+description: 'Greet someone and record the time'
+author: 'Oskdin Actions'
 
 # Define your inputs here.
 inputs:
   who-to-greet: # id of input
-    description: Who to greet
+    description: 'Who to greet'
     required: true
-    default: World
+    default: 'World'
 
 # Define your outputs here.
 outputs:
   time: # id of output
-    description: The time we greeted you
+    description: 'The time we greeted you'
 
 runs:
-  using: node20
-  main: index.js
+  using: 'node20'
+  main: 'index.js'
 branding:
-  icon: message-square
-  color: blue
+  icon: 'message-square'
+  color: 'blue'
